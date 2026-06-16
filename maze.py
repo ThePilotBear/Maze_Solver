@@ -1,7 +1,7 @@
 import keyboard
 import random
 
-'''with open ("/Users/henrytavareswilliams/Documents/maze/firstmaze.txt") as f:
+'''with open ("/Users/account/Documents/maze/firstmaze.txt") as f:
     mainmaze = f.read()
 print(mainmaze)'''
 
@@ -16,7 +16,7 @@ def decodemaze(maze):
             z.append(x.replace("\n",""))
     return z
 
-maze = "/Users/henrytavareswilliams/Documents/maze/firstmaze.txt"
+maze = "/Users/account/Documents/maze/firstmaze.txt"
 
 ##for i in range(len(maze)):
     ##print(maze[i])
